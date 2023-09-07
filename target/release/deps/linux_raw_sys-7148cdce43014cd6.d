@@ -1,0 +1,10 @@
+/home/sinem/final_projesi/Patika_ICP_course_final_project/target/release/deps/linux_raw_sys-7148cdce43014cd6.rmeta: /home/sinem/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.5/src/lib.rs /home/sinem/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.5/src/x86_64/errno.rs /home/sinem/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.5/src/x86_64/general.rs /home/sinem/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.5/src/x86_64/ioctl.rs
+
+/home/sinem/final_projesi/Patika_ICP_course_final_project/target/release/deps/liblinux_raw_sys-7148cdce43014cd6.rlib: /home/sinem/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.5/src/lib.rs /home/sinem/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.5/src/x86_64/errno.rs /home/sinem/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.5/src/x86_64/general.rs /home/sinem/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.5/src/x86_64/ioctl.rs
+
+/home/sinem/final_projesi/Patika_ICP_course_final_project/target/release/deps/linux_raw_sys-7148cdce43014cd6.d: /home/sinem/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.5/src/lib.rs /home/sinem/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.5/src/x86_64/errno.rs /home/sinem/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.5/src/x86_64/general.rs /home/sinem/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.5/src/x86_64/ioctl.rs
+
+/home/sinem/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.5/src/lib.rs:
+/home/sinem/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.5/src/x86_64/errno.rs:
+/home/sinem/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.5/src/x86_64/general.rs:
+/home/sinem/.cargo/registry/src/index.crates.io-6f17d22bba15001f/linux-raw-sys-0.4.5/src/x86_64/ioctl.rs:

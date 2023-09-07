@@ -1,0 +1,3 @@
+cargo:rerun-if-changed=build/main.rs
+cargo:rustc-env=TYPENUM_BUILD_CONSTS=/home/sinem/final_projesi/Patika_ICP_course_final_project/target/debug/build/typenum-cbe18890ef944a90/out/consts.rs
+cargo:rustc-env=TYPENUM_BUILD_OP=/home/sinem/final_projesi/Patika_ICP_course_final_project/target/debug/build/typenum-cbe18890ef944a90/out/op.rs

@@ -1,0 +1,64 @@
+type Proposal =
+    record {
+        description: text;
+        current_highest_vote: nat32;
+        current_reject_vote: nat32;
+        current_pass_vote: nat32;
+        is_active: bool;
+        voted: vec principal;
+        owner: principal;
+        current_highest_bid: nat32;
+        current_highest_bidder: principal;
+        bidders: vec principal;
+    };
+
+ type ProposalList = vec Proposal;
+
+
+type CreateProposal = 
+    record {
+        description: text;
+        is_active: bool;
+    };
+
+type Result =
+    variant {
+        Ok;
+        Err: VoteError;
+    };
+
+type BidError = 
+    variant {
+    ItemIsNotActive;
+    NoSuchProposal;
+    UpdateError;
+};
+
+type VoteError =
+    variant {
+        AlreadyVoted;
+        ProposalIsNotActive;
+        NoSuchProposal;
+        AccessRejected;
+        UpdateError;
+    };
+
+type Choice = 
+    variant {
+        Approve;
+        Reject;
+        Pass;
+    };
+
+service : {
+    "get_proposal": (nat64) -> (opt Proposal) query;
+    "get_proposal_count": () -> (nat64) query;
+    "get_list_of_proposals": () -> (ProposalList) query;
+    "most_expensive_proposal": () -> (opt Proposal) query;
+    "most_bidded_proposal": () -> (opt Proposal) query;
+    "create_proposal": (nat64, CreateProposal) -> (opt Proposal);
+    "edit_proposal": (nat64, CreateProposal) -> (Result);
+    "end_proposal": (nat64) -> (Result);
+    "vote": (nat64, Choice) -> (Result);
+    "bid": (nat64, nat32) -> (Result);
+}
